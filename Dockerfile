@@ -64,7 +64,7 @@ ENV DISABLE_TOOLS=$DISABLE_TOOLS
 
 ENV NODE_OPTIONS="--max-old-space-size=3072"
 
-RUN npm run build
+RUN npm run build:docker && node scripts/generate-i18n-pages.mjs && node scripts/generate-sitemap.mjs
 
 # Production stage
 FROM quay.io/nginx/nginx-unprivileged:alpine-slim
