@@ -1,0 +1,374 @@
+{
+  "nav": {
+    "home": "Sākums",
+    "about": "Par mums",
+    "contact": "Kontakti",
+    "licensing": "Licencēšana",
+    "allTools": "Visi rīki",
+    "docs": "Dokumentācija",
+    "openMainMenu": "Atvērt galveno izvēlni",
+    "language": "Valoda"
+  },
+  "donation": {
+    "message": "Mīlat ITERUM PDF? Palīdziet mums to saglabāt bezmaksas un atvērtā koda!",
+    "button": "Ziedot"
+  },
+  "hero": {
+    "title": "Jūsu",
+    "pdfToolkit": "PDF rīku komplekts",
+    "builtForPrivacy": "izstrādāts privātumam",
+    "noSignups": "Bez reģistrācijas",
+    "unlimitedUse": "Neierobežota lietošana",
+    "worksOffline": "Darbojas bezsaistē",
+    "startUsing": "Sākt lietot"
+  },
+  "usedBy": {
+    "title": "To izmanto uzņēmumi un cilvēki, kas strādā"
+  },
+  "features": {
+    "title": "Kāpēc izvēlēties",
+    "bentoPdf": "ITERUM PDF?",
+    "noSignup": {
+      "title": "Bez reģistrācijas",
+      "description": "Sāciet uzreiz — bez kontiem vai e-pastiem."
+    },
+    "noUploads": {
+      "title": "Bez augšupielādes",
+      "description": "100% lokāli — jūsu faili nekad neaiziet no ierīces."
+    },
+    "foreverFree": {
+      "title": "Bezmaksas uz mūžu",
+      "description": "Visi rīki, bez izmēģinājumiem, bez maksas sienām."
+    },
+    "noLimits": {
+      "title": "Bez ierobežojumiem",
+      "description": "Lietojiet cik vēlat, bez slēptiem ierobežojumiem."
+    },
+    "batchProcessing": {
+      "title": "Partijas apstrāde",
+      "description": "Apstrādājiet neierobežotu skaitu PDF uzreiz."
+    },
+    "lightningFast": {
+      "title": "Zibens ātrs",
+      "description": "Apstrādājiet PDF uzreiz, bez gaidīšanas."
+    }
+  },
+  "tools": {
+    "title": "Sāciet ar",
+    "toolsLabel": "Rīkiem",
+    "subtitle": "Noklikšķiniet uz rīka, lai atvērtu failu augšupielādētāju",
+    "searchPlaceholder": "Meklēt rīku (piem., 'sadalīt', 'kārtot'...)",
+    "backToTools": "Atpakaļ pie rīkiem",
+    "firstLoadNotice": "Pirmā ielāde aizņem brīdi, kamēr lejupielādējam konversijas dzinēju. Pēc tam visas ielādes būs tūlītējas."
+  },
+  "upload": {
+    "clickToSelect": "Noklikšķiniet, lai izvēlētos failu",
+    "orDragAndDrop": "vai velciet un nometiet",
+    "pdfOrImages": "PDF vai attēlus",
+    "filesNeverLeave": "Jūsu faili nekad neaiziet no ierīces.",
+    "addMore": "Pievienot vairāk failu",
+    "clearAll": "Notīrīt visu",
+    "clearFiles": "Notīrīt failus",
+    "hints": {
+      "singlePdf": "Viens PDF fails",
+      "pdfFile": "PDF fails",
+      "multiplePdfs2": "Vairāki PDF faili (vismaz 2)",
+      "bmpImages": "BMP attēli",
+      "oneOrMorePdfs": "Viens vai vairāki PDF faili",
+      "pdfDocuments": "PDF dokumenti",
+      "oneOrMoreCsv": "Viens vai vairāki CSV faili",
+      "multiplePdfsSupported": "Atbalstīti vairāki PDF faili",
+      "singleOrMultiplePdfs": "Atbalstīts viens vai vairāki PDF faili",
+      "singlePdfFile": "Viens PDF fails",
+      "pdfWithForms": "PDF fails ar formu laukiem",
+      "heicImages": "HEIC/HEIF attēli",
+      "jpgImages": "JPG, JPEG, JP2, JPX attēli",
+      "pdfsOrImages": "PDF vai attēli",
+      "oneOrMoreOdt": "Viens vai vairāki ODT faili",
+      "singlePdfOnly": "Tikai viens PDF fails",
+      "pdfFiles": "PDF faili",
+      "multiplePdfs": "Vairāki PDF faili",
+      "pngImages": "PNG attēli",
+      "pdfFilesOneOrMore": "PDF faili (viens vai vairāki)",
+      "oneOrMoreRtf": "Viens vai vairāki RTF faili",
+      "svgGraphics": "SVG grafika",
+      "tiffImages": "TIFF attēli",
+      "webpImages": "WebP attēli"
+    }
+  },
+  "howItWorks": {
+    "title": "Kā tas darbojas",
+    "step1": "Noklikšķiniet vai velciet failu, lai sāktu",
+    "step2": "Noklikšķiniet uz apstrādes pogas, lai sāktu",
+    "step3": "Saglabājiet apstrādāto failu uzreiz"
+  },
+  "relatedTools": {
+    "title": "Saistītie PDF rīki"
+  },
+  "loader": {
+    "processing": "Apstrādā..."
+  },
+  "alert": {
+    "title": "Brīdinājums",
+    "ok": "Labi"
+  },
+  "preview": {
+    "title": "Dokumenta priekšskatījums",
+    "downloadAsPdf": "Lejupielādēt kā PDF",
+    "close": "Aizvērt"
+  },
+  "settings": {
+    "title": "Iestatījumi",
+    "shortcuts": "Īsceļi",
+    "preferences": "Preferences",
+    "displayPreferences": "Attēlošanas preferences",
+    "searchShortcuts": "Meklēt īsceļus...",
+    "shortcutsInfo": "Turiet nospiestas taustiņas, lai iestatītu īsceļu. Izmaiņas tiek saglabātas automātiski.",
+    "shortcutsWarning": "⚠️ Izvairieties no izplatītiem pārlūka īsceļiem (Cmd/Ctrl+W, Cmd/Ctrl+T, Cmd/Ctrl+N u.c.), jo tie var nedarboties uzticami.",
+    "import": "Importēt",
+    "export": "Eksportēt",
+    "resetToDefaults": "Atiestatīt uz noklusējuma",
+    "fullWidthMode": "Pilna platuma režīms",
+    "fullWidthDescription": "Izmantot visu ekrāna platumu visiem rīkiem, nevis centrētu konteineru",
+    "settingsAutoSaved": "Iestatījumi tiek saglabāti automātiski",
+    "clickToSet": "Noklikšķiniet, lai iestatītu",
+    "pressKeys": "Nospiediet taustiņas...",
+    "warnings": {
+      "alreadyInUse": "Īsceļš jau tiek izmantots",
+      "assignedTo": "jau ir piešķirts:",
+      "chooseDifferent": "Lūdzu izvēlieties citu īsceļu.",
+      "reserved": "Rezervētā īsceļa brīdinājums",
+      "commonlyUsed": "parasti izmanto:",
+      "unreliable": "Šis īsceļš var nedarboties uzticami vai konfliktēt ar pārlūka/sistēmas uzvedību.",
+      "useAnyway": "Vai vēlaties to tomēr izmantot?",
+      "resetTitle": "Atiestatīt īsceļus",
+      "resetMessage": "Vai esat pārliecināts, ka vēlaties atiestatīt visus īsceļus uz noklusējuma?<br><br>Šo darbību nevar atcelt.",
+      "importSuccessTitle": "Imports veiksmīgs",
+      "importSuccessMessage": "Īsceļi importēti veiksmīgi!",
+      "importFailTitle": "Imports neizdevās",
+      "importFailMessage": "Neizdevās importēt īsceļus. Nepareizs faila formāts."
+    }
+  },
+  "warning": {
+    "title": "Brīdinājums",
+    "cancel": "Atcelt",
+    "proceed": "Turpināt"
+  },
+  "compliance": {
+    "title": "Jūsu dati nekad neaiziet no jūsu ierīces",
+    "weKeep": "Mēs saglabājam",
+    "yourInfoSafe": "jūsu informāciju drošu",
+    "byFollowingStandards": "ievērojot globālos drošības standartus.",
+    "processingLocal": "Visa apstrāde notiek lokāli uz jūsu ierīces.",
+    "gdpr": {
+      "title": "GDPR atbilstība",
+      "description": "Aizsargā Eiropas Savienības iedzīvotāju personas datus un privātumu."
+    },
+    "ccpa": {
+      "title": "CCPA atbilstība",
+      "description": "Piešķir Kalifornijas iedzīvotājiem tiesības pār viņu personas informācijas vākšanu, izmantošanu un kopīgošanu."
+    },
+    "hipaa": {
+      "title": "HIPAA atbilstība",
+      "description": "Nosaka aizsardzības pasākumus sensitīvas veselības informācijas apstrādei ASV veselības aprūpes sistēmā."
+    }
+  },
+  "faq": {
+    "title": "Bieži uzdotie",
+    "questions": "Jautājumi",
+    "sectionTitle": "Bieži uzdotie jautājumi",
+    "isFree": {
+      "question": "Vai ITERUM PDF tiešām ir bezmaksas?",
+      "answer": "Jā, absolūti. Visi ITERUM PDF rīki ir 100% bezmaksas lietošanai bez failu ierobežojumiem, bez reģistrācijas un bez ūdenszīmēm. Mēs uzskatām, ka ikvienam ir tiesības uz vienkāršiem un jaudīgiem PDF rīkiem bez maksas sienas."
+    },
+    "areFilesSecure": {
+      "question": "Vai mani faili ir droši? Kur tie tiek apstrādāti?",
+      "answer": "Jūsu faili ir pēc iespējas drošāki, jo tie nekad neaiziet no jūsu datora. Visa apstrāde notiek tieši jūsu tīmekļa pārlūkā (klienta pusē). Mēs nekad neaugšupielādējam jūsu failus uz servera, tāpēc jums ir pilnīga privātums un kontrole pār saviem dokumentiem."
+    },
+    "platforms": {
+      "question": "Vai tas darbojas Mac, Windows un mobilajās ierīcēs?",
+      "answer": "Jā! Tā kā ITERUM PDF darbojas pilnībā jūsu pārlūkā, tas darbojas jebkurā operētājsistēmā ar modernu tīmekļa pārlūku, ieskaitot Windows, macOS, Linux, iOS un Android."
+    },
+    "gdprCompliant": {
+      "question": "Vai ITERUM PDF atbilst GDPR?",
+      "answer": "Jā. ITERUM PDF pilnībā atbilst GDPR. Tā kā visa failu apstrāde notiek lokāli jūsu pārlūkā un mēs nekad nevācam vai nepārsūtām jūsu failus uz serveri, mums nav piekļuves jūsu datiem."
+    },
+    "dataStorage": {
+      "question": "Vai jūs glabājat vai izsekojat manus failus?",
+      "answer": "Nē. Mēs nekad neglabājam, neizsekojam un nereģistrējam jūsu failus. Viss, ko darāt ITERUM PDF, notiek jūsu pārlūka atmiņā un pazūd, kad aizverat lapu."
+    },
+    "different": {
+      "question": "Kas padara ITERUM PDF atšķirīgu no citiem PDF rīkiem?",
+      "answer": "Lielākā daļa PDF rīku augšupielādē jūsu failus uz servera apstrādei. ITERUM PDF to nekad nedara. Mēs izmantojam drošas, modernas tīmekļa tehnoloģijas, lai apstrādātu jūsu failus tieši jūsu pārlūkā."
+    },
+    "browserBased": {
+      "question": "Kā pārlūkā balstīta apstrāde mani pasargā?",
+      "answer": "Darbojoties pilnībā jūsu pārlūkā, ITERUM PDF nodrošina, ka jūsu faili nekad neaiziet no jūsu ierīces. Tas novērš serveru uzlaušanas, datu noplūdes vai neatļautas piekļuves riskus."
+    },
+    "analytics": {
+      "question": "Vai jūs izmantojat sīkfailus vai analīzi, lai mani izsekotu?",
+      "answer": "Mēs rūpējamies par jūsu privātumu. ITERUM PDF neizseko personas informāciju. Mēs izmantojam Simple Analytics tikai, lai redzētu anonīmus apmeklējumu skaitļus. Simple Analytics pilnībā atbilst GDPR un respektē jūsu privātumu."
+    }
+  },
+  "testimonials": {
+    "title": "Ko saka mūsu",
+    "users": "Lietotāji",
+    "say": ""
+  },
+  "support": {
+    "title": "Patīk mans darbs?",
+    "description": "ITERUM PDF ir aizraušanās projekts, izstrādāts, lai nodrošinātu bezmaksas, privātu un jaudīgu PDF rīku komplektu ikvienam. Ja jums tas ir noderīgs, apsveriet atbalstu tā attīstībai.",
+    "buyMeCoffee": "Nopirkt man kafiju"
+  },
+  "footer": {
+    "copyright": "© 2026 ITERUM PDF. Visas tiesības aizsargātas.",
+    "version": "Versija",
+    "company": "Uzņēmums",
+    "aboutUs": "Par mums",
+    "faqLink": "BUJ",
+    "contactUs": "Sazināties ar mums",
+    "legal": "Juridiskā informācija",
+    "termsAndConditions": "Lietošanas noteikumi",
+    "privacyPolicy": "Privātuma politika",
+    "followUs": "Sekot mums"
+  },
+  "merge": {
+    "title": "Apvienot PDF",
+    "description": "Apvienojiet veselos failus vai atlasiet konkrētas lappuses, lai apvienotu jaunā dokumentā.",
+    "fileMode": "Failu režīms",
+    "pageMode": "Lappušu režīms",
+    "howItWorks": "Kā tas darbojas:",
+    "fileModeInstructions": [
+      "Noklikšķiniet un velciet ikonu, lai mainītu failu secību.",
+      "Lodziņā \"Lappuses\" katram failam varat norādīt diapazonus (piem., \"1-3, 5\"), lai apvienotu tikai tās lappuses.",
+      "Atstājiet lodziņu \"Lappuses\" tukšu, lai iekļautu visas lappuses no tā faila."
+    ],
+    "pageModeInstructions": [
+      "Zemāk redzamas visas augšupielādēto PDF lappuses.",
+      "Vienkārši velciet un nometiet atsevišķās lappušu miniatūras, lai izveidotu vēlamo secību jaunajam failam."
+    ],
+    "mergePdfs": "Apvienot PDF"
+  },
+  "common": {
+    "page": "Lappuse",
+    "pages": "Lappuses",
+    "of": "no",
+    "download": "Lejupielādēt",
+    "cancel": "Atcelt",
+    "save": "Saglabāt",
+    "delete": "Dzēst",
+    "edit": "Rediģēt",
+    "add": "Pievienot",
+    "remove": "Noņemt",
+    "loading": "Ielādē...",
+    "loadingPageCount": "Ielādē lappuses...",
+    "error": "Kļūda",
+    "success": "Veiksmīgi",
+    "file": "Fails",
+    "files": "Faili",
+    "close": "Aizvērt",
+    "convert": "Konvertēt"
+  },
+  "about": {
+    "hero": {
+      "title": "Mēs uzskatām, ka PDF rīkiem jābūt",
+      "subtitle": "ātriem, privātiem un bezmaksas.",
+      "noCompromises": "Bez kompromisiem."
+    },
+    "mission": {
+      "title": "Mūsu misija",
+      "description": "Nodrošināt visaptverošāko PDF rīku komplektu, kas respektē jūsu privātumu un nekad neprasa maksājumu. Mēs uzskatām, ka būtiskiem dokumentu rīkiem jābūt pieejamiem ikvienam, visur, bez šķēršļiem."
+    },
+    "philosophy": {
+      "label": "Mūsu galvenā filozofija",
+      "title": "Privātums pirmajā vietā. Vienmēr.",
+      "description": "Laikmetā, kad dati ir prece, mēs ejam citu ceļu. Visa ITERUM PDF rīku apstrāde notiek lokāli jūsu pārlūkā. Tas nozīmē, ka jūsu faili nekad nepieskaras mūsu serveriem, mēs nekad neredzam jūsu dokumentus, un mēs neizsekojam to, ko jūs darāt."
+    },
+    "whyBentopdf": {
+      "title": "Kāpēc",
+      "speed": {
+        "title": "Izstrādāts ātrumam",
+        "description": "Bez gaidīšanas failu augšupielādei vai lejupielādei uz serveri. Apstrādājot failus tieši jūsu pārlūkā, izmantojot modernas tīmekļa tehnoloģijas kā WebAssembly, mēs piedāvājam nepārspējamu ātrumu."
+      },
+      "free": {
+        "title": "Pilnīgi bezmaksas",
+        "description": "Bez izmēģinājumiem, bez abonementiem, bez slēptām maksām un bez \"premium\" funkcijām. Mēs uzskatām, ka jaudīgiem PDF rīkiem jābūt publiski pieejamiem, nevis peļņas centram."
+      },
+      "noAccount": {
+        "title": "Nav nepieciešams konts",
+        "description": "Sāciet lietot jebkuru rīku uzreiz. Mums nav vajadzīgs jūsu e-pasts, parole vai jebkāda cita personiskā informācija."
+      },
+      "openSource": {
+        "title": "Atvērtā koda gars",
+        "description": "Izstrādāts ar caurredzamību prātā. Mēs izmantojam izcilus atvērtā koda bibliotēkas kā PDF-lib un PDF.js, un ticam kopienas vadītam darbam, lai padarītu jaudīgus rīkus pieejamus visiem."
+      }
+    },
+    "cta": {
+      "title": "Gatavs sākt?",
+      "description": "Pievienojieties tūkstošiem lietotāju, kuri uzticas ITERUM PDF savām ikdienas dokumentu vajadzībām.",
+      "button": "Izpētīt visus rīkus"
+    }
+  },
+  "contact": {
+    "title": "Sazināties",
+    "subtitle": "Mēs labprāt dzirdētu no jums. Vai jums ir jautājums, atsauksmes vai funkcijas pieprasījums — nevilcinieties sazināties.",
+    "email": "Jūs varat sazināties ar mums tieši pa e-pastu:"
+  },
+  "licensing": {
+    "title": "Licencēšana",
+    "subtitle": "Izvēlieties licenci, kas atbilst jūsu vajadzībām."
+  },
+  "multiTool": {
+    "uploadPdfs": "Augšupielādēt PDF",
+    "upload": "Augšupielādēt",
+    "addBlankPage": "Pievienot tukšu lappusi",
+    "edit": "Rediģēt:",
+    "undo": "Atsaukt",
+    "redo": "Atkārtot",
+    "reset": "Atiestatīt",
+    "selection": "Atlase:",
+    "selectAll": "Atlasīt visu",
+    "deselectAll": "Noņemt atlasi",
+    "rotate": "Pagriezt:",
+    "rotateLeft": "Pa kreisi",
+    "rotateRight": "Pa labi",
+    "transform": "Pārveidot:",
+    "duplicate": "Dublēt",
+    "split": "Sadalīt",
+    "clear": "Notīrīt:",
+    "delete": "Dzēst",
+    "download": "Lejupielādēt:",
+    "downloadSelected": "Lejupielādēt atlasītos",
+    "exportPdf": "Eksportēt PDF",
+    "uploadPdfFiles": "Izvēlēties PDF failus",
+    "dragAndDrop": "Velciet un nometiet PDF failus šeit vai noklikšķiniet, lai izvēlētos",
+    "selectFiles": "Izvēlēties failus",
+    "renderingPages": "Renderē lappuses...",
+    "actions": {
+      "duplicatePage": "Dublēt šo lappusi",
+      "deletePage": "Dzēst šo lappusi",
+      "insertPdf": "Ievietot PDF pēc šīs lappuses",
+      "toggleSplit": "Pārslēgt sadalīšanu pēc šīs lappuses"
+    },
+    "pleaseWait": "Lūdzu uzgaidiet",
+    "pagesRendering": "Lappuses vēl tiek renderētas. Lūdzu uzgaidiet...",
+    "noPagesSelected": "Nav atlasītu lappušu",
+    "selectOnePage": "Lūdzu atlasiet vismaz vienu lappusi lejupielādei.",
+    "noPages": "Nav lappušu",
+    "noPagesToExport": "Nav lappušu eksportēšanai.",
+    "renderingTitle": "Renderē lappušu priekšskatījumus",
+    "errorRendering": "Neizdevās renderēt lappušu miniatūras",
+    "error": "Kļūda",
+    "failedToLoad": "Neizdevās ielādēt"
+  },
+  "simpleMode": {
+    "title": "PDF rīki",
+    "subtitle": "Izvēlieties rīku, lai sāktu"
+  },
+  "disabledTool": {
+    "title": "Rīks nav pieejams",
+    "heading": "Šis rīks ir atspējots",
+    "message": "Šis rīks nav pieejams jūsu instalācijā. Sazinieties ar administratoru plašākai informācijai.",
+    "backHome": "Atpakaļ uz sākumu"
+  }
+}

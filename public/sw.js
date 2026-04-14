@@ -1,11 +1,11 @@
 /**
- * BentoPDF Service Worker
+ * ITERUM PDF Service Worker
  * Caches WASM files and static assets for offline support and faster loading
  * Supports both local and CDN delivery with deduplication
  * Version: 1.1.0
  */
 
-const CACHE_VERSION = 'bentopdf-v10';
+const CACHE_VERSION = 'iterum-pdf-v10';
 const CACHE_NAME = `${CACHE_VERSION}-static`;
 
 const getBasePath = () => {
@@ -49,7 +49,7 @@ self.addEventListener('activate', (event) => {
       .then((cacheNames) => {
         return Promise.all(
           cacheNames.map((cacheName) => {
-            if (cacheName.startsWith('bentopdf-') && cacheName !== CACHE_NAME) {
+            if (cacheName.startsWith('iterum-pdf-') && cacheName !== CACHE_NAME) {
               // console.log('[ServiceWorker] Deleting old cache:', cacheName);
               return caches.delete(cacheName);
             }
@@ -283,8 +283,8 @@ function getLocalPathForCDNUrl(pathname) {
 function shouldCache(pathname, isCDN = false) {
   if (isCDN) {
     return (
-      pathname.includes('/@bentopdf/pymupdf-wasm') ||
-      pathname.includes('/@bentopdf/gs-wasm') ||
+      pathname.includes('/@iterum-pdf/pymupdf-wasm') ||
+      pathname.includes('/@iterum-pdf/gs-wasm') ||
       pathname.includes('/@matbee/libreoffice-converter') ||
       pathname.match(/\.(wasm|whl|zip|json|js|gz)$/)
     );

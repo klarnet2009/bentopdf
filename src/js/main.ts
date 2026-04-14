@@ -57,7 +57,7 @@ const init = async () => {
       }
 
       const githubLink = document.querySelector(
-        'a[href*="github.com/alam00000/bentopdf"]'
+        'a[href*="github.com/alam00000/iterum-pdf"]'
       );
       if (githubLink) {
         (githubLink as HTMLElement).style.display = 'none';
@@ -105,7 +105,7 @@ const init = async () => {
         (divider as HTMLElement).style.display = 'none';
       });
 
-      const brandName = __BRAND_NAME__ || 'BentoPDF';
+      const brandName = __BRAND_NAME__ || 'ITERUM PDF';
       document.title = `${brandName} - ${t('simpleMode.title')}`;
 
       const toolsHeader = document.getElementById('tools-header');
@@ -542,7 +542,7 @@ const init = async () => {
   ];
 
   if (githubStarsElements.some((el) => el) && !__SIMPLE_MODE__) {
-    fetch('https://api.github.com/repos/alam00000/bentopdf')
+    fetch('https://api.github.com/repos/alam00000/iterum-pdf')
       .then((response) => response.json())
       .then((data) => {
         if (data.stargazers_count !== undefined) {

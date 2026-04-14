@@ -1,0 +1,862 @@
+{
+  "categories": {
+    "popularTools": "Populārie rīki",
+    "editAnnotate": "Rediģēt un anotēt",
+    "convertToPdf": "Konvertēt uz PDF",
+    "convertFromPdf": "Konvertēt no PDF",
+    "organizeManage": "Kārtot un pārvaldīt",
+    "optimizeRepair": "Optimizēt un labot",
+    "securePdf": "Aizsargāt PDF"
+  },
+  "pdfMultiTool": {
+    "name": "PDF universālais rīks",
+    "subtitle": "Apvienot, sadalīt, kārtot, dzēst, pagriezt, pievienot tukšas lappuses, iegūt un dublēt vienā saskarnē."
+  },
+  "mergePdf": {
+    "name": "Apvienot PDF",
+    "subtitle": "Apvienojiet vairākus PDF vienos failā. Saglabā grāmatzīmes."
+  },
+  "splitPdf": {
+    "name": "Sadalīt PDF",
+    "subtitle": "Iegūstiet lappušu diapazonu jaunā PDF."
+  },
+  "compressPdf": {
+    "name": "Saspiest PDF",
+    "subtitle": "Samaziniet PDF faila lielumu.",
+    "algorithmLabel": "Saspiešanas algoritms",
+    "condense": "Kondensēt (ieteicams)",
+    "photon": "Photon (fotoattēlu bagātiem PDF)",
+    "condenseInfo": "Kondensēšana izmanto papildu saspiešanu: noņem nevajadzīgo, optimizē attēlus, apakškopa fontu. Vislabāk piemērots lielākajai daļai PDF.",
+    "photonInfo": "Photon konvertē lappuses attēlos. Izmantojiet fotoattēlu/skenētu PDF gadījumā.",
+    "photonWarning": "Brīdinājums: Teksts kļūs neatlasāms un saites pārstās darboties.",
+    "levelLabel": "Saspiešanas līmenis",
+    "light": "Viegls (saglabāt kvalitāti)",
+    "balanced": "Līdzsvarots (ieteicams)",
+    "aggressive": "Agresīvs (mazāki faili)",
+    "extreme": "Galējais (maksimāla saspiešana)",
+    "grayscale": "Konvertēt pelēkskalā",
+    "grayscaleHint": "Samazina faila lielumu, noņemot krāsu informāciju",
+    "customSettings": "Pielāgoti iestatījumi",
+    "customSettingsHint": "Precīzi konfigurējiet saspiešanas parametrus:",
+    "outputQuality": "Izvades kvalitāte",
+    "resizeImagesTo": "Mainīt attēlu izmēru uz",
+    "onlyProcessAbove": "Apstrādāt tikai virs",
+    "removeMetadata": "Noņemt metadatus",
+    "subsetFonts": "Fontu apakškopa (noņemt neizmantotās glifas)",
+    "removeThumbnails": "Noņemt iegultas miniatūras",
+    "compressButton": "Saspiest PDF"
+  },
+  "pdfEditor": {
+    "name": "PDF redaktors",
+    "subtitle": "Anotēt, izcelt, slēpt, komentēt, pievienot formas/attēlus, meklēt un skatīt PDF."
+  },
+  "jpgToPdf": {
+    "name": "JPG uz PDF",
+    "subtitle": "Izveidojiet PDF no JPG, JPEG un JPEG2000 (JP2/JPX) attēliem."
+  },
+  "signPdf": {
+    "name": "Parakstīt PDF",
+    "subtitle": "Zīmējiet, rakstiet vai augšupielādējiet savu parakstu."
+  },
+  "cropPdf": {
+    "name": "Apgriezt PDF",
+    "subtitle": "Apgrieziet malas katrai PDF lappusei."
+  },
+  "extractPages": {
+    "name": "Iegūt lappuses",
+    "subtitle": "Saglabājiet lappušu atlasi kā jaunus failus."
+  },
+  "duplicateOrganize": {
+    "name": "Dublēt un kārtot",
+    "subtitle": "Dublēt, pārkārtot un dzēst lappuses."
+  },
+  "deletePages": {
+    "name": "Dzēst lappuses",
+    "subtitle": "Noņemiet konkrētas lappuses no dokumenta."
+  },
+  "editBookmarks": {
+    "name": "Rediģēt grāmatzīmes",
+    "subtitle": "Pievienot, rediģēt, importēt, dzēst un iegūt PDF grāmatzīmes."
+  },
+  "tableOfContents": {
+    "name": "Satura rādītājs",
+    "subtitle": "Ģenerēt satura rādītāja lappusi no PDF grāmatzīmēm."
+  },
+  "pageNumbers": {
+    "name": "Lappušu numuri",
+    "subtitle": "Ievietojiet lappušu numurus dokumentā."
+  },
+  "addPageLabels": {
+    "name": "Pievienot lappušu etiķetes",
+    "subtitle": "Pielietojiet PDF lappušu etiķetes ar romiešu cipariem, prefiksiem un pielāgotiem sākumiem.",
+    "uploadHint": "PDF fails",
+    "howLabelsWorkTitle": "Kā darbojas etiķetes",
+    "howLabelsWorkStep1": "Atstājiet lauku Lappušu diapazons tukšu, lai marķētu visas lappuses.",
+    "howLabelsWorkStep2": "Izmantojiet stilus kā romiešu cipari priekšmateriālam un decimālā numerācija galvenajam tekstam.",
+    "howLabelsWorkStep3": "Izmantojiet prefiksu ar sākuma vērtību 0, lai izveidotu etiķetes kā A-0, A-1, A-2.",
+    "howLabelsWorkStep4": "Iespējojiet progresu, kad viens noteikums izmanto nevienmērīgu diapazonu kā 1-9,30-40 vai nepāra.",
+    "labelRulesTitle": "Etiķešu noteikumi",
+    "addRule": "Pievienot noteikumu",
+    "removeExistingLabels": "Noņemt esošās lappušu etiķetes pirms šo noteikumu pielietošanas",
+    "cpdfNote": "Šis rīks izmanto CoherentPDF jūsu pārlūkā.",
+    "processButton": "Pievienot lappušu etiķetes",
+    "howItWorksUploadTitle": "Augšupielādēt failu",
+    "howItWorksUploadDescription": "Izvēlieties PDF, kuru vēlaties pāretiķetēt.",
+    "howItWorksDefineTitle": "Definēt noteikumus",
+    "howItWorksDefineDescription": "Iestatiet vienu vai vairākus lappušu etiķešu noteikumus.",
+    "howItWorksDownloadTitle": "Lejupielādēt",
+    "howItWorksDownloadDescription": "Saglabājiet atjaunināto PDF ar jaunajām lappušu etiķetēm.",
+    "relatedToolsTitle": "Saistītie PDF rīki",
+    "faqWhatIsQuestion": "Kas ir lappuses etiķete?",
+    "faqWhatIsAnswer": "Lappuses etiķete ir numerācija, ko PDF lasītāji rāda miniatūrās, navigācijā un drukāšanas dialogos.",
+    "faqMixQuestion": "Vai varu sajaukt romiešu ciparus un parastus skaitļus?",
+    "faqMixAnswer": "Jā. Pievienojiet vairākus noteikumus, piemēram, 1-4 ar LowercaseRoman un 5-20 ar DecimalArabic.",
+    "faqPrivacyQuestion": "Vai mani faili paliek privāti?",
+    "faqPrivacyAnswer": "Jā. Apstrāde notiek jūsu pārlūkā, izmantojot CoherentPDF WASM. Jūsu PDF neaiziet no ierīces.",
+    "invalidFileTitle": "Nepareizs fails",
+    "invalidFileMessage": "Lūdzu augšupielādējiet derīgu PDF failu.",
+    "loadingPdf": "Ielādē PDF...",
+    "protectedPdfTitle": "Aizsargāts PDF",
+    "protectedPdfMessage": "Šis PDF ir aizsargāts ar paroli. Vispirms izmantojiet rīku Atšifrēt vai Mainīt atļaujas.",
+    "loadErrorMessage": "Neizdevās ielādēt PDF failu.",
+    "fileMeta": "{{size}} • {{count}} lpp.",
+    "ruleTitle": "Etiķetes noteikums {{number}}",
+    "pageRangeLabel": "Lappušu diapazons",
+    "pageRangePlaceholder": "Visas lappuses vai piem. 1-4, 7, nepāra",
+    "labelStyleLabel": "Etiķetes stils",
+    "labelPrefixLabel": "Etiķetes prefikss",
+    "labelPrefixPlaceholder": "Neobligāts prefikss, piem. A-",
+    "startValueLabel": "Sākuma vērtība",
+    "continueNumbering": "Turpināt numerāciju caur nevienmērīgiem diapazoniem",
+    "examplesNote": "Piemēri: 1-4 romiešu priekšmateriālam, 15-20 ar prefiksu A- un sākuma vērtību 0.",
+    "uploadFirstMessage": "Lūdzu vispirms augšupielādējiet PDF failu.",
+    "applyingLabels": "Pievieno lappušu etiķetes...",
+    "invalidRangeMessage": "Noteikumam {{number}} ir nepareizs lappušu diapazons: {{range}}",
+    "allPages": "visas lappuses",
+    "emptyOutputMessage": "CoherentPDF izveidoja tukšu failu.",
+    "successMessage": "Lappušu etiķetes pievienotas veiksmīgi!",
+    "processErrorMessage": "Nevarēja pievienot lappušu etiķetes.",
+    "styleOptions": {
+      "DecimalArabic": "Decimālie arābu cipari",
+      "LowercaseRoman": "Mazie romiešu cipari",
+      "UppercaseRoman": "Lielie romiešu cipari",
+      "LowercaseLetters": "Mazie burti",
+      "UppercaseLetters": "Lielie burti",
+      "NoLabelPrefixOnly": "Tikai prefikss bez etiķetes"
+    }
+  },
+  "batesNumbering": {
+    "name": "Beites numerācija",
+    "subtitle": "Pievienojiet secīgus Beites numurus vienam vai vairākiem PDF failiem."
+  },
+  "addWatermark": {
+    "name": "Pievienot ūdenszīmi",
+    "subtitle": "Uzspiediet tekstu vai attēlu uz PDF lappusēm.",
+    "applyToAllPages": "Pielietot visām lappusēm"
+  },
+  "headerFooter": {
+    "name": "Galvene un kājene",
+    "subtitle": "Pievienojiet tekstu lappušu augšā un apakšā."
+  },
+  "invertColors": {
+    "name": "Invertēt krāsas",
+    "subtitle": "Izveidojiet \"tumšā režīma\" versiju savam PDF."
+  },
+  "scannerEffect": {
+    "name": "Skenera efekts",
+    "subtitle": "Padariet savu PDF izskatāmu kā skenētu dokumentu.",
+    "scanSettings": "Skenēšanas iestatījumi",
+    "colorspace": "Krāsu telpa",
+    "gray": "Pelēks",
+    "border": "Robeža",
+    "rotate": "Pagriezt",
+    "rotateVariance": "Pagriešanas variācija",
+    "brightness": "Spilgtums",
+    "contrast": "Kontrasts",
+    "blur": "Izplūšana",
+    "noise": "Troksnis",
+    "yellowish": "Dzeltenīgs",
+    "resolution": "Izšķirtspēja",
+    "processButton": "Pielietot skenera efektu"
+  },
+  "adjustColors": {
+    "name": "Pielāgot krāsas",
+    "subtitle": "Precīzi konfigurējiet spilgtumu, kontrastu, piesātinājumu un vairāk jūsu PDF.",
+    "colorSettings": "Krāsu iestatījumi",
+    "brightness": "Spilgtums",
+    "contrast": "Kontrasts",
+    "saturation": "Piesātinājums",
+    "hueShift": "Nokrāsas nobīde",
+    "temperature": "Temperatūra",
+    "tint": "Nokrāsa",
+    "gamma": "Gamma",
+    "sepia": "Sēpija",
+    "processButton": "Pielietot krāsu pielāgojumus"
+  },
+  "backgroundColor": {
+    "name": "Fona krāsa",
+    "subtitle": "Mainiet PDF fona krāsu."
+  },
+  "changeTextColor": {
+    "name": "Mainīt teksta krāsu",
+    "subtitle": "Mainiet teksta krāsu jūsu PDF."
+  },
+  "addStamps": {
+    "name": "Pievienot zīmogus",
+    "subtitle": "Pievienojiet attēlu zīmogus savam PDF.",
+    "usernameLabel": "Zīmoga lietotājvārds",
+    "usernamePlaceholder": "Ievadiet savu vārdu (zīmogiem)",
+    "usernameHint": "Šis vārds parādīsies uz jūsu izveidotajiem zīmogiem."
+  },
+  "removeAnnotations": {
+    "name": "Noņemt anotācijas",
+    "subtitle": "Noņemiet komentārus, izcēlumus un saites."
+  },
+  "pdfFormFiller": {
+    "name": "PDF formas aizpildītājs",
+    "subtitle": "Aizpildiet formas tieši pārlūkā. Atbalsta arī XFA formas."
+  },
+  "createPdfForm": {
+    "name": "Izveidot PDF formu",
+    "subtitle": "Izveidojiet aizpildāmas PDF formas ar vilkšanas un nomešanas teksta laukiem."
+  },
+  "removeBlankPages": {
+    "name": "Noņemt tukšas lappuses",
+    "subtitle": "Automātiski noteikt un dzēst tukšas lappuses.",
+    "sensitivityHint": "Augstāks = stingrāks, tikai pilnībā tukšas lappuses. Zemāks = pieļauj lappuses ar nedaudz satura."
+  },
+  "imageToPdf": {
+    "name": "Attēli uz PDF",
+    "subtitle": "Konvertējiet JPG, PNG, BMP, GIF, TIFF, SVG, HEIC, WebP uz PDF."
+  },
+  "pngToPdf": {
+    "name": "PNG uz PDF",
+    "subtitle": "Izveidojiet PDF no viena vai vairākiem PNG attēliem."
+  },
+  "webpToPdf": {
+    "name": "WebP uz PDF",
+    "subtitle": "Izveidojiet PDF no viena vai vairākiem WebP attēliem."
+  },
+  "svgToPdf": {
+    "name": "SVG uz PDF",
+    "subtitle": "Izveidojiet PDF no viena vai vairākiem SVG attēliem."
+  },
+  "bmpToPdf": {
+    "name": "BMP uz PDF",
+    "subtitle": "Izveidojiet PDF no viena vai vairākiem BMP attēliem."
+  },
+  "heicToPdf": {
+    "name": "HEIC uz PDF",
+    "subtitle": "Izveidojiet PDF no viena vai vairākiem HEIC attēliem."
+  },
+  "tiffToPdf": {
+    "name": "TIFF uz PDF",
+    "subtitle": "Izveidojiet PDF no viena vai vairākiem TIFF attēliem."
+  },
+  "textToPdf": {
+    "name": "Teksts uz PDF",
+    "subtitle": "Konvertējiet vienkāršu teksta failu PDF."
+  },
+  "jsonToPdf": {
+    "name": "JSON uz PDF",
+    "subtitle": "Konvertējiet JSON failus PDF formātā."
+  },
+  "pdfToJpg": {
+    "name": "PDF uz JPG",
+    "subtitle": "Konvertējiet katru PDF lappusi JPG attēlā.",
+    "imageQuality": "Attēla kvalitāte",
+    "imageQualityExplanation": "Augstāka kvalitāte = lielāks faila lielums",
+    "alert": {
+      "invalidFile": "Nepareizs fails",
+      "invalidFileExplanation": "Lūdzu augšupielādējiet PDF failu.",
+      "noFile": "Nav faila",
+      "noFileExplanation": "Lūdzu vispirms augšupielādējiet PDF failu.",
+      "conversionSuccess": "PDF veiksmīgi konvertēts JPG!",
+      "conversionError": "Neizdevās konvertēt PDF uz JPG."
+    },
+    "loader": {
+      "converting": "Konvertē uz JPG..."
+    }
+  },
+  "pdfToPng": {
+    "name": "PDF uz PNG",
+    "subtitle": "Konvertējiet katru PDF lappusi PNG attēlā.",
+    "imageScale": "Attēla mērogs",
+    "imageScaleExplanation": "Augstāks mērogs = labāka kvalitāte, bet lielāks faila lielums",
+    "alert": {
+      "invalidFile": "Nepareizs fails",
+      "invalidFileExplanation": "Lūdzu augšupielādējiet PDF failu.",
+      "noFile": "Nav faila",
+      "noFileExplanation": "Lūdzu vispirms augšupielādējiet PDF failu.",
+      "conversionSuccess": "PDF veiksmīgi konvertēts PNG!",
+      "conversionError": "Neizdevās konvertēt PDF uz PNG."
+    },
+    "loader": {
+      "converting": "Konvertē uz PNG..."
+    }
+  },
+  "pdfToWebp": {
+    "name": "PDF uz WebP",
+    "subtitle": "Konvertējiet katru PDF lappusi WebP attēlā.",
+    "imageQuality": "Attēla kvalitāte",
+    "imageQualityExplanation": "Augstāka kvalitāte = lielāks faila lielums",
+    "alert": {
+      "invalidFile": "Nepareizs fails",
+      "invalidFileExplanation": "Lūdzu augšupielādējiet PDF failu.",
+      "noFile": "Nav faila",
+      "noFileExplanation": "Lūdzu vispirms augšupielādējiet PDF failu.",
+      "conversionSuccess": "PDF veiksmīgi konvertēts WebP!",
+      "conversionError": "Neizdevās konvertēt PDF uz WebP."
+    },
+    "loader": {
+      "converting": "Konvertē uz WebP..."
+    }
+  },
+  "pdfToBmp": {
+    "name": "PDF uz BMP",
+    "subtitle": "Konvertējiet katru PDF lappusi BMP attēlā.",
+    "alert": {
+      "invalidFile": "Nepareizs fails",
+      "invalidFileExplanation": "Lūdzu augšupielādējiet PDF failu.",
+      "noFile": "Nav faila",
+      "noFileExplanation": "Lūdzu vispirms augšupielādējiet PDF failu.",
+      "conversionSuccess": "PDF veiksmīgi konvertēts BMP!",
+      "conversionError": "Neizdevās konvertēt PDF uz BMP."
+    },
+    "loader": {
+      "converting": "Konvertē uz BMP..."
+    }
+  },
+  "pdfToTiff": {
+    "name": "PDF uz TIFF",
+    "subtitle": "Konvertējiet katru PDF lappusi TIFF attēlā.",
+    "dpi": "DPI (izšķirtspēja)",
+    "dpiExplanation": "Augstāks DPI = labāka drukas kvalitāte, lielāks faila lielums",
+    "compression": "Saspiešana",
+    "compressionExplanation": "LZW un Deflate ir bez zudumiem. CCITT 4. grupa ir vislabākā melnbaltiem skenētiem dokumentiem.",
+    "colorMode": "Krāsu režīms",
+    "multiPage": "Saglabāt kā vairāklapu TIFF (viens fails)",
+    "loadingVips": "Ielādē attēlu procesoru...",
+    "converting": "Konvertē uz TIFF...",
+    "alert": {
+      "invalidFile": "Nepareizs fails",
+      "invalidFileExplanation": "Lūdzu augšupielādējiet PDF failu.",
+      "noFile": "Nav faila",
+      "noFileExplanation": "Lūdzu vispirms augšupielādējiet PDF failu.",
+      "conversionSuccess": "PDF veiksmīgi konvertēts TIFF!",
+      "conversionError": "Neizdevās konvertēt PDF uz TIFF."
+    }
+  },
+  "pdfToCbz": {
+    "name": "PDF uz CBZ",
+    "subtitle": "Konvertējiet PDF CBZ (komiksu arhīva) failā komiksu lasītājiem.",
+    "imageFormat": "Attēla formāts",
+    "quality": "Attēla kvalitāte",
+    "qualityExplanation": "Augstāka kvalitāte = lielāks faila lielums",
+    "scale": "Mērogs",
+    "scaleExplanation": "Augstāks mērogs = labāka kvalitāte augsta izšķirtspējas ekrāniem",
+    "grayscale": "Konvertēt pelēkskalā",
+    "manga": "Manga režīms (no labās uz kreiso)",
+    "includeMetadata": "Iekļaut ComicInfo.xml metadatus",
+    "titleLabel": "Nosaukums",
+    "seriesLabel": "Sērija",
+    "authorLabel": "Autors(-i)",
+    "numberLabel": "Nr.",
+    "volumeLabel": "Sēj.",
+    "publisherLabel": "Izdevējs",
+    "tagsLabel": "Tagi / Žanrs",
+    "yearLabel": "Izdošanas gads",
+    "ratingLabel": "Vērtējums (0-5)",
+    "converting": "Konvertē uz CBZ...",
+    "alert": {
+      "invalidFile": "Nepareizs fails",
+      "invalidFileExplanation": "Lūdzu augšupielādējiet PDF failu.",
+      "noFile": "Nav faila",
+      "noFileExplanation": "Lūdzu vispirms augšupielādējiet PDF failu.",
+      "conversionSuccess": "PDF veiksmīgi konvertēts CBZ!",
+      "conversionError": "Neizdevās konvertēt PDF uz CBZ."
+    }
+  },
+  "pdfToGreyscale": {
+    "name": "PDF uz pelēkskali",
+    "subtitle": "Konvertējiet visas krāsas melnbaltā."
+  },
+  "pdfToJson": {
+    "name": "PDF uz JSON",
+    "subtitle": "Konvertējiet PDF failus JSON formātā."
+  },
+  "ocrPdf": {
+    "name": "OCR PDF",
+    "subtitle": "Padariet PDF meklējamu un kopējamu."
+  },
+  "alternateMix": {
+    "name": "Mainīt un jaukt lappuses",
+    "subtitle": "Apvienojiet PDF, mainot lappuses no katra PDF. Saglabā grāmatzīmes."
+  },
+  "addAttachments": {
+    "name": "Pievienot pielikumus",
+    "subtitle": "Ieguliet vienu vai vairākus failus savā PDF."
+  },
+  "extractAttachments": {
+    "name": "Iegūt pielikumus",
+    "subtitle": "Iegūstiet visus iegultos failus no PDF(-iem) kā ZIP."
+  },
+  "editAttachments": {
+    "name": "Rediģēt pielikumus",
+    "subtitle": "Skatīt vai noņemt pielikumus PDF."
+  },
+  "dividePages": {
+    "name": "Sadalīt lappuses",
+    "subtitle": "Sadaliet lappuses horizontāli vai vertikāli."
+  },
+  "addBlankPage": {
+    "name": "Pievienot tukšu lappusi",
+    "subtitle": "Ievietojiet tukšu lappusi jebkurā vietā PDF."
+  },
+  "reversePages": {
+    "name": "Apgriezt lappuses",
+    "subtitle": "Apgrieziet visu lappušu secību dokumentā."
+  },
+  "rotatePdf": {
+    "name": "Pagriezt PDF",
+    "subtitle": "Grieziet lappuses 90 grādu soleņos."
+  },
+  "rotateCustom": {
+    "name": "Pagriezt par pielāgotu grādu skaitu",
+    "subtitle": "Grieziet lappuses par jebkuru pielāgotu leņķi."
+  },
+  "nUpPdf": {
+    "name": "N-Up PDF",
+    "subtitle": "Kārtojiet vairākas lappuses uz vienas lapas."
+  },
+  "combineToSinglePage": {
+    "name": "Apvienot vienā lappusē",
+    "subtitle": "Sašujiet visas lappuses vienā nepārtrauktā ritinājumā."
+  },
+  "viewMetadata": {
+    "name": "Skatīt metadatus",
+    "subtitle": "Pārbaudiet slēptās PDF īpašības."
+  },
+  "editMetadata": {
+    "name": "Rediģēt metadatus",
+    "subtitle": "Mainiet autoru, nosaukumu un citas īpašības."
+  },
+  "pdfsToZip": {
+    "name": "PDF uz ZIP",
+    "subtitle": "Iepakojiet vairākus PDF failus ZIP arhīvā."
+  },
+  "comparePdfs": {
+    "name": "Salīdzināt PDF",
+    "subtitle": "Salīdziniet divus PDF blakus.",
+    "firstPdf": "Pirmais PDF",
+    "secondPdf": "Otrais PDF",
+    "clickOrDrop": "Noklikšķiniet vai nometiet",
+    "page": "Lappuse",
+    "overlay": "Pārklājums",
+    "sideBySide": "Blakus",
+    "flicker": "Mirgoņa",
+    "syncScroll": "Sinhronizēt ritināšanu",
+    "export": "Eksportēt",
+    "exportAsPdf": "Eksportēt kā PDF",
+    "splitView": "Dalīts skats",
+    "alternating": "Mainīgs",
+    "leftDocument": "Kreisais dokuments",
+    "rightDocument": "Labais dokuments",
+    "original": "Oriģināls",
+    "modified": "Modificēts",
+    "searchChanges": "Meklēt izmaiņas...",
+    "deleted": "Dzēsts",
+    "added": "Pievienots",
+    "prevPage": "Iepriekšējā lappuse",
+    "nextPage": "Nākamā lappuse",
+    "prevChange": "Iepriekšējā izmaiņa",
+    "nextChange": "Nākamā izmaiņa",
+    "uploadTwoPdfs": "Augšupielādējiet divus PDF, lai redzētu atšķirības.",
+    "noDifferences": "Šajā lappusē nav atšķirību.",
+    "noMatchingChanges": "Neviens izmaiņas neatbilst pašreizējam filtram.",
+    "pageNotExist": "Lappuse {{page}} neeksistē šajā PDF.",
+    "noPairedPage": "Nav pārī lappuses šai pusei.",
+    "buildingModel": "Veido lappušu savienošanas modeli...",
+    "indexingPdf": "Indeksē PDF {{num}} lappusi {{page}} no {{total}}...",
+    "loadingComparison": "Ielādē salīdzinājumu {{current}} no {{total}}...",
+    "runningOcr": "Veic OCR lappusē {{page}}...",
+    "preparingExport": "Sagatavo PDF eksportu...",
+    "renderingPage": "Renderē lappusi {{current}} no {{total}}...",
+    "exportError": "Eksporta kļūda",
+    "exportFailed": "Nevarēja eksportēt salīdzinājuma PDF.",
+    "loadingFile": "Ielādē {{name}}...",
+    "invalidFile": "Nepareizs fails",
+    "invalidFileMsg": "Lūdzu izvēlieties derīgu PDF failu.",
+    "loadError": "Nevarēja ielādēt PDF. Tas var būt bojāts vai aizsargāts ar paroli."
+  },
+  "posterizePdf": {
+    "name": "Posterizēt PDF",
+    "subtitle": "Sadaliet lielu lappusi vairākās mazākās lappusēs."
+  },
+  "fixPageSize": {
+    "name": "Labot lappuses izmēru",
+    "subtitle": "Standartizējiet visas lappuses vienotā izmērā."
+  },
+  "linearizePdf": {
+    "name": "Linearizēt PDF",
+    "subtitle": "Optimizēt PDF ātrai tīmekļa skatīšanai."
+  },
+  "pageDimensions": {
+    "name": "Lappuses izmēri",
+    "subtitle": "Analizēt lappuses izmēru, orientāciju un vienības."
+  },
+  "removeRestrictions": {
+    "name": "Noņemt ierobežojumus",
+    "subtitle": "Noņemiet paroles aizsardzību un drošības ierobežojumus."
+  },
+  "repairPdf": {
+    "name": "Labot PDF",
+    "subtitle": "Atgūstiet datus no bojātiem vai sabojātiem PDF failiem."
+  },
+  "encryptPdf": {
+    "name": "Šifrēt PDF",
+    "subtitle": "Bloķējiet savu PDF, pievienojot paroli."
+  },
+  "sanitizePdf": {
+    "name": "Attīrīt PDF",
+    "subtitle": "Noņemiet metadatus, anotācijas, skriptus un vairāk."
+  },
+  "decryptPdf": {
+    "name": "Atšifrēt PDF",
+    "subtitle": "Atbloķējiet PDF, noņemot paroles aizsardzību."
+  },
+  "flattenPdf": {
+    "name": "Saplacināt PDF",
+    "subtitle": "Padariet formu laukus un anotācijas nerediģējamas."
+  },
+  "removeMetadata": {
+    "name": "Noņemt metadatus",
+    "subtitle": "Noņemiet slēptos datus no sava PDF."
+  },
+  "changePermissions": {
+    "name": "Mainīt atļaujas",
+    "subtitle": "Iestatiet vai mainiet lietotāja atļaujas PDF."
+  },
+  "odtToPdf": {
+    "name": "ODT uz PDF",
+    "subtitle": "Konvertējiet OpenDocument teksta failus PDF formātā.",
+    "acceptedFormats": "ODT faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "csvToPdf": {
+    "name": "CSV uz PDF",
+    "subtitle": "Konvertējiet CSV izklājlapu failus PDF formātā.",
+    "acceptedFormats": "CSV faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "rtfToPdf": {
+    "name": "RTF uz PDF",
+    "subtitle": "Konvertējiet bagātinātā teksta formāta dokumentus PDF.",
+    "acceptedFormats": "RTF faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "wordToPdf": {
+    "name": "Word uz PDF",
+    "subtitle": "Konvertējiet Word dokumentus (DOCX, DOC, ODT, RTF) PDF formātā.",
+    "acceptedFormats": "DOCX, DOC, ODT, RTF faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "excelToPdf": {
+    "name": "Excel uz PDF",
+    "subtitle": "Konvertējiet Excel izklājlapas (XLSX, XLS, ODS, CSV) PDF formātā.",
+    "acceptedFormats": "XLSX, XLS, ODS, CSV faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "powerpointToPdf": {
+    "name": "PowerPoint uz PDF",
+    "subtitle": "Konvertējiet PowerPoint prezentācijas (PPTX, PPT, ODP) PDF formātā.",
+    "acceptedFormats": "PPTX, PPT, ODP faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "markdownToPdf": {
+    "name": "Markdown uz PDF",
+    "subtitle": "Rakstiet vai ielīmējiet Markdown un eksportējiet kā skaisti formatētu PDF.",
+    "paneMarkdown": "Markdown",
+    "panePreview": "Priekšskatījums",
+    "btnUpload": "Augšupielādēt",
+    "btnSyncScroll": "Sinhronizēt ritināšanu",
+    "btnSettings": "Iestatījumi",
+    "btnExportPdf": "Eksportēt PDF",
+    "settingsTitle": "Markdown iestatījumi",
+    "settingsPreset": "Priekšiestatījums",
+    "presetDefault": "Noklusējuma (GFM līdzīgs)",
+    "presetCommonmark": "CommonMark (stingrs)",
+    "presetZero": "Minimāls (bez funkcijām)",
+    "settingsOptions": "Markdown opcijas",
+    "optAllowHtml": "Atļaut HTML tagus",
+    "optBreaks": "Konvertēt jaunas rindas uz <br>",
+    "optLinkify": "Auto-konvertēt URL uz saitēm",
+    "optTypographer": "Tipografs (viedie pēdiņi u.c.)"
+  },
+  "pdfBooklet": {
+    "name": "PDF brošūra",
+    "subtitle": "Pārkārtojiet lappuses divpusējai brošūras drukāšanai.",
+    "howItWorks": "Kā tas darbojas:",
+    "step1": "Augšupielādējiet PDF failu.",
+    "step2": "Lappuses tiks pārkārtotas brošūras secībā.",
+    "step3": "Drukājiet divpusēji, lociet un saspraudziet.",
+    "paperSize": "Papīra izmērs",
+    "orientation": "Orientācija",
+    "portrait": "Portrets",
+    "landscape": "Ainava",
+    "pagesPerSheet": "Lappuses uz lapas",
+    "createBooklet": "Izveidot brošūru",
+    "processing": "Apstrādā...",
+    "pageCount": "Lappušu skaits tiks papildināts līdz 4 reizinājumam, ja nepieciešams."
+  },
+  "xpsToPdf": {
+    "name": "XPS uz PDF",
+    "subtitle": "Konvertējiet XPS/OXPS dokumentus PDF formātā.",
+    "acceptedFormats": "XPS, OXPS faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "mobiToPdf": {
+    "name": "MOBI uz PDF",
+    "subtitle": "Konvertējiet MOBI e-grāmatas PDF formātā.",
+    "acceptedFormats": "MOBI faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "epubToPdf": {
+    "name": "EPUB uz PDF",
+    "subtitle": "Konvertējiet EPUB e-grāmatas PDF formātā.",
+    "acceptedFormats": "EPUB faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "fb2ToPdf": {
+    "name": "FB2 uz PDF",
+    "subtitle": "Konvertējiet FictionBook (FB2) e-grāmatas PDF formātā.",
+    "acceptedFormats": "FB2 faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "cbzToPdf": {
+    "name": "CBZ uz PDF",
+    "subtitle": "Konvertējiet komiksu arhīvus (CBZ/CBR) PDF formātā.",
+    "acceptedFormats": "CBZ, CBR faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "wpdToPdf": {
+    "name": "WPD uz PDF",
+    "subtitle": "Konvertējiet WordPerfect dokumentus (WPD) PDF formātā.",
+    "acceptedFormats": "WPD faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "wpsToPdf": {
+    "name": "WPS uz PDF",
+    "subtitle": "Konvertējiet WPS Office dokumentus PDF formātā.",
+    "acceptedFormats": "WPS faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "xmlToPdf": {
+    "name": "XML uz PDF",
+    "subtitle": "Konvertējiet XML dokumentus PDF formātā.",
+    "acceptedFormats": "XML faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "pagesToPdf": {
+    "name": "Pages uz PDF",
+    "subtitle": "Konvertējiet Apple Pages dokumentus PDF formātā.",
+    "acceptedFormats": "Pages faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "odgToPdf": {
+    "name": "ODG uz PDF",
+    "subtitle": "Konvertējiet OpenDocument grafiku (ODG) failus PDF formātā.",
+    "acceptedFormats": "ODG faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "odsToPdf": {
+    "name": "ODS uz PDF",
+    "subtitle": "Konvertējiet OpenDocument izklājlapas (ODS) failus PDF formātā.",
+    "acceptedFormats": "ODS faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "odpToPdf": {
+    "name": "ODP uz PDF",
+    "subtitle": "Konvertējiet OpenDocument prezentācijas (ODP) failus PDF formātā.",
+    "acceptedFormats": "ODP faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "pubToPdf": {
+    "name": "PUB uz PDF",
+    "subtitle": "Konvertējiet Microsoft Publisher (PUB) failus PDF formātā.",
+    "acceptedFormats": "PUB faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "vsdToPdf": {
+    "name": "VSD uz PDF",
+    "subtitle": "Konvertējiet Microsoft Visio (VSD, VSDX) failus PDF formātā.",
+    "acceptedFormats": "VSD, VSDX faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "psdToPdf": {
+    "name": "PSD uz PDF",
+    "subtitle": "Konvertējiet Adobe Photoshop (PSD) failus PDF formātā.",
+    "acceptedFormats": "PSD faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "pdfToSvg": {
+    "name": "PDF uz SVG",
+    "subtitle": "Konvertējiet katru PDF lappusi mērogojamā vektorgrafikā (SVG)."
+  },
+  "extractTables": {
+    "name": "Iegūt PDF tabulas",
+    "subtitle": "Iegūstiet tabulas no PDF failiem un eksportējiet kā CSV, JSON vai Markdown."
+  },
+  "pdfToCsv": {
+    "name": "PDF uz CSV",
+    "subtitle": "Iegūstiet tabulas no PDF un konvertējiet CSV formātā."
+  },
+  "pdfToExcel": {
+    "name": "PDF uz Excel",
+    "subtitle": "Iegūstiet tabulas no PDF un konvertējiet Excel (XLSX) formātā."
+  },
+  "pdfToText": {
+    "name": "PDF uz tekstu",
+    "subtitle": "Iegūstiet tekstu no PDF failiem un saglabājiet kā vienkāršu tekstu (.txt).",
+    "note": "Šis rīks darbojas TIKAI ar digitāli izveidotiem PDF. Skenētiem dokumentiem izmantojiet OCR PDF rīku.",
+    "convertButton": "Iegūt tekstu"
+  },
+  "digitalSignPdf": {
+    "name": "Digitālais paraksts PDF",
+    "pageTitle": "Digitālais paraksts PDF - Pievienot kriptogrāfisku parakstu | ITERUM PDF",
+    "subtitle": "Pievienojiet kriptogrāfisku digitālo parakstu savam PDF, izmantojot X.509 sertifikātus. Jūsu privātā atslēga nekad neaiziet no pārlūka.",
+    "certificateSection": "Sertifikāts",
+    "uploadCert": "Augšupielādēt sertifikātu (.pfx, .p12)",
+    "certPassword": "Sertifikāta parole",
+    "certPasswordPlaceholder": "Ievadiet sertifikāta paroli",
+    "certInfo": "Sertifikāta informācija",
+    "certSubject": "Subjekts",
+    "certIssuer": "Izdevējs",
+    "certValidity": "Derīgs",
+    "signatureDetails": "Paraksta detaļas (neobligāti)",
+    "reason": "Iemesls",
+    "reasonPlaceholder": "piem., Es apstiprinu šo dokumentu",
+    "location": "Atrašanās vieta",
+    "locationPlaceholder": "piem., Rīga, Latvija",
+    "contactInfo": "Kontaktinformācija",
+    "contactPlaceholder": "piem., epasts@piemers.com",
+    "applySignature": "Pielietot digitālo parakstu",
+    "successMessage": "PDF veiksmīgi parakstīts! Parakstu var verificēt jebkurā PDF lasītājā."
+  },
+  "validateSignaturePdf": {
+    "name": "Verificēt PDF parakstu",
+    "pageTitle": "Verificēt PDF parakstu - Pārbaudīt digitālos parakstus | ITERUM PDF",
+    "subtitle": "Verificējiet digitālos parakstus jūsu PDF failos. Pārbaudiet sertifikāta derīgumu, skatiet parakstītāja detaļas."
+  },
+  "timestampPdf": {
+    "name": "Laika zīmogs PDF",
+    "pageTitle": "Laika zīmogs PDF - RFC 3161 dokumenta laika zīmogs | ITERUM PDF",
+    "subtitle": "Pievienojiet RFC 3161 dokumenta laika zīmogu savam PDF, izmantojot uzticamu laika zīmoga serveri (TSA).",
+    "tsaSectionTitle": "Laika zīmoga serveris (TSA)",
+    "selectTsa": "Izvēlēties TSA serveri",
+    "applyTimestamp": "Pielietot laika zīmogu",
+    "successMessage": "PDF veiksmīgi laika zīmogots! Laika zīmogu var verificēt Adobe Acrobat un citos PDF lasītājos."
+  },
+  "emailToPdf": {
+    "name": "E-pasts uz PDF",
+    "subtitle": "Konvertējiet e-pasta failus (EML, MSG) PDF formātā.",
+    "acceptedFormats": "EML, MSG faili",
+    "convertButton": "Konvertēt uz PDF"
+  },
+  "fontToOutline": {
+    "name": "Fonts uz kontūru",
+    "subtitle": "Konvertējiet visus fontus vektoru kontūrās konsekventai renderēšanai."
+  },
+  "deskewPdf": {
+    "name": "Iztaisnot PDF",
+    "subtitle": "Automātiski iztaisnojiet slīpi skenētas lappuses."
+  },
+  "pdfToWord": {
+    "name": "PDF uz Word",
+    "subtitle": "Konvertējiet PDF failus rediģējamos Word dokumentos."
+  },
+  "extractImages": {
+    "name": "Iegūt attēlus",
+    "subtitle": "Iegūstiet visus iegultos attēlus no jūsu PDF failiem."
+  },
+  "pdfToMarkdown": {
+    "name": "PDF uz Markdown",
+    "subtitle": "Konvertējiet PDF tekstu un tabulas Markdown formātā."
+  },
+  "preparePdfForAi": {
+    "name": "Sagatavot PDF AI",
+    "subtitle": "Iegūstiet PDF saturu kā LlamaIndex JSON RAG/LLM pipeline."
+  },
+  "pdfOcg": {
+    "name": "PDF OCG",
+    "subtitle": "Skatīt, pārslēgt, pievienot un dzēst OCG slāņus jūsu PDF."
+  },
+  "pdfToPdfa": {
+    "name": "PDF uz PDF/A",
+    "subtitle": "Konvertējiet PDF uz PDF/A ilgtermiņa arhivēšanai."
+  },
+  "rasterizePdf": {
+    "name": "Rasterizēt PDF",
+    "subtitle": "Konvertējiet PDF uz attēlu balstītu PDF. Saplaciniet slāņus."
+  },
+  "pdfWorkflow": {
+    "name": "PDF darbplūsmas veidotājs",
+    "subtitle": "Veidojiet pielāgotas PDF apstrādes cauruļvadus ar vizuālu mezglu redaktoru.",
+    "nodes": "Mezgli",
+    "searchNodes": "Meklēt mezglus...",
+    "run": "Palaist",
+    "clear": "Notīrīt",
+    "save": "Saglabāt",
+    "load": "Ielādēt",
+    "export": "Eksportēt",
+    "import": "Importēt",
+    "ready": "Gatavs",
+    "settings": "Iestatījumi",
+    "processing": "Apstrādā...",
+    "saveTemplate": "Saglabāt veidni",
+    "templateName": "Veidnes nosaukums",
+    "templatePlaceholder": "piem. Rēķina darbplūsma",
+    "cancel": "Atcelt",
+    "loadTemplate": "Ielādēt veidni",
+    "noTemplates": "Vēl nav saglabātu veidņu.",
+    "ok": "Labi",
+    "workflowCompleted": "Darbplūsma pabeigta",
+    "errorDuringExecution": "Kļūda izpildes laikā",
+    "addNodeError": "Pievienojiet vismaz vienu mezglu, lai palaistu darbplūsmu.",
+    "needInputOutput": "Jūsu darbplūsmai ir nepieciešams vismaz viens ievades un viens izvades mezgls.",
+    "enterName": "Lūdzu ievadiet nosaukumu.",
+    "templateExists": "Veidne ar šādu nosaukumu jau pastāv.",
+    "templateSaved": "Veidne \"{{name}}\" saglabāta.",
+    "templateLoaded": "Veidne \"{{name}}\" ielādēta.",
+    "failedLoadTemplate": "Neizdevās ielādēt veidni.",
+    "noSettings": "Nav konfigurējamu iestatījumu šim mezglam.",
+    "advancedSettings": "Papildu iestatījumi"
+  },
+  "pdfOverlay": {
+    "name": "PDF pārklājums",
+    "subtitle": "Pārklājiet vai ielieciet apakšā lappuses no viena PDF uz citu.",
+    "basePdfLabel": "Bāzes PDF",
+    "uploadBasePdf": "Augšupielādēt bāzes PDF",
+    "overlayPdfLabel": "Pārklājuma / apakšslāņa PDF",
+    "uploadOverlayPdf": "Augšupielādēt pārklājuma/apakšslāņa PDF",
+    "modeLabel": "Režīms",
+    "overlayOption": "Pārklājums (virs lappusēm)",
+    "underlayOption": "Apakšslānis (zem lappusēm)",
+    "pageRangeLabel": "Pielietot lappusēm (neobligāti)",
+    "pageRangeHint": "Izmantojiet \"z\" pēdējai lappusei. Atstājiet tukšu, lai pielietotu visām lappusēm.",
+    "repeatLabel": "Cilpot pārklājuma/apakšslāņa lappuses, ja bāze ir garāka",
+    "processButton": "Pielietot pārklājumu / apakšslāni",
+    "howItWorksUploadTitle": "Augšupielādēt divus PDF",
+    "howItWorksUploadDescription": "Augšupielādējiet bāzes PDF un PDF, kuru vēlaties pārklāt vai ielikt apakšā.",
+    "howItWorksModeTitle": "Izvēlēties režīmu",
+    "howItWorksModeDescription": "Atlasiet pārklājumu (virspusē) vai apakšslāni (aizmugurē).",
+    "howItWorksDownloadTitle": "Lejupielādēt",
+    "howItWorksDownloadDescription": "Lejupielādējiet savu PDF ar pielietoto pārklājumu vai apakšslāni.",
+    "faqDifferenceQuestion": "Kāda ir atšķirība starp pārklājumu un apakšslāni?",
+    "faqDifferenceAnswer": "Pārklājums novieto lappuses virs bāzes PDF (kā ūdenszīme). Apakšslānis novieto lappuses zem bāzes PDF (kā vēstules galvene vai fons).",
+    "faqSinglePageQuestion": "Vai varu izmantot vienas lappuses PDF kā pārklājumu visām lappusēm?",
+    "faqSinglePageAnswer": "Jā! Iespējojiet opciju \"Cilpot\" un jūsu pārklājuma PDF lappuses atkārtosies pāri visām bāzes lappusēm.",
+    "faqPrivacyQuestion": "Vai mani faili ir privāti un droši?",
+    "faqPrivacyAnswer": "Absolūti! Visa apstrāde notiek jūsu pārlūkā. Jūsu faili nekad neaiziet no jūsu ierīces."
+  }
+}
