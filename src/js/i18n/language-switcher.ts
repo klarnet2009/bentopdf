@@ -87,6 +87,7 @@ export const createLanguageSwitcher = (): HTMLElement => {
 };
 
 export const injectLanguageSwitcher = (): void => {
+  // Simple mode (dedicated container)
   const simpleModeContainer = document.getElementById(
     'simple-mode-language-switcher'
   );
@@ -96,62 +97,17 @@ export const injectLanguageSwitcher = (): void => {
     return;
   }
 
-  const footer = document.querySelector('footer');
-  if (!footer) return;
+  // Navbar desktop slot
+  const navbarSlot = document.getElementById('navbar-language-switcher');
+  if (navbarSlot) {
+    navbarSlot.appendChild(createLanguageSwitcher());
+  }
 
-  const headings = footer.querySelectorAll('h3');
-  let followUsColumn: HTMLElement | null = null;
-
-  headings.forEach((h3) => {
-    if (
-      h3.textContent?.trim() === 'Follow Us' ||
-      h3.textContent?.trim() === 'Folgen Sie uns' ||
-      h3.textContent?.trim() === 'Theo dõi chúng tôi'
-    ) {
-      followUsColumn = h3.parentElement;
-    }
-  });
-
-  if (followUsColumn) {
-    const socialIconsContainer = followUsColumn.querySelector('.space-x-4');
-
-    if (socialIconsContainer) {
-      const wrapper = document.createElement('div');
-      wrapper.className = 'inline-flex flex-col gap-4'; // gap-4 adds space between icons and switcher
-
-      socialIconsContainer.parentNode?.insertBefore(
-        wrapper,
-        socialIconsContainer
-      );
-
-      wrapper.appendChild(socialIconsContainer);
-      const switcher = createLanguageSwitcher();
-
-      switcher.className = 'relative w-full';
-
-      const button = switcher.querySelector('button');
-      if (button) {
-        button.className = `
-                    flex items-center justify-between w-full text-sm font-medium
-                    bg-gray-800 text-gray-400 border border-gray-700
-                    px-3 py-2 rounded-lg transition-colors duration-200
-                    hover:text-white hover:border-gray-600
-                `.trim();
-      }
-
-      const dropdown = switcher.querySelector('div[role="menu"]');
-      if (dropdown) {
-        dropdown.classList.remove('mt-2', 'w-40');
-        dropdown.classList.add('bottom-full', 'mb-2', 'w-full');
-      }
-
-      wrapper.appendChild(switcher);
-    } else {
-      const switcherContainer = document.createElement('div');
-      switcherContainer.className = 'mt-4 w-full';
-      const switcher = createLanguageSwitcher();
-      switcherContainer.appendChild(switcher);
-      followUsColumn.appendChild(switcherContainer);
-    }
+  // Navbar mobile slot
+  const navbarMobileSlot = document.getElementById(
+    'navbar-language-switcher-mobile'
+  );
+  if (navbarMobileSlot) {
+    navbarMobileSlot.appendChild(createLanguageSwitcher());
   }
 };
